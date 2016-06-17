@@ -1,9 +1,14 @@
 header h1{
   float:left;
 }
+header nav{
+margin-left: 60%;
+}
 header ul{
   float:right;
 }
+
+
 header li {
   display:inline-block;
   border: 1px solid black;
@@ -13,7 +18,14 @@ header li {
   margin-left: .25em
 
 }
+li{
+  display: inline-block;
+  text-align: center;
+}
 main{
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
 border: 1px solid black
 clear: both;
 background-color: #dde0cd;
@@ -26,4 +38,95 @@ div.profile{
 }
 main ul{
   clear: both;
+  width: 55%;
+  float: left;
+}
+
+main ul li{
+  width30%
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+padding: 0;
+margin: 0;
+font-size:  .75em;
+font-weight: normal;
+font-style: italic;
+}
+main ul img{
+  width: 100%;
+}
+div.map, div.form{
+  height: 65em;
+  padding: 1em;
+}
+div.map, .map div{
+  float: none;
+  margin: 0;
+}
+
+
+
+div.map, .map div{
+  float: none;
+  margin: 0;
+  text-align: left;
+}
+div.map{
+  float: left;
+  width: 60%;
+  background-color: #edd5d1
+}
+.map div{
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+
+.map p {
+  text-align: left;
+}
+div.form {
+  margin-left: 66%;
+  background-color: #dde0cd
+  text-align: left;
+}
+
+label {
+display: block;
+}
+textarea {
+  display: block;
+}
+footer {
+  clear: both;
+  margin-top:  2em;
+}
+
+footer p{
+
+  float: left;
+}
+
+footer ul {
+  float: right;
+}
+footer li {
+  padding-left: 1em
+}
+
+
+
+
+
+
+
+
+
+
+
+footer li{
+  padding-left: 1em;
 }
